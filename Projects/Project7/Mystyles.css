@@ -1,0 +1,126 @@
+@charset "UTF-8";
+/* CSS Document */
+ 
+body{
+	font-family: Georgia, serif;
+	font-size: 100%;
+	background-color: #8fbaf3;	
+	color: #5279B7
+}
+
+header{
+	width: 900px;
+	height: 200px;
+	background-color:white;	
+	text-align: center;
+	padding-top: 10px;
+	margin: auto;
+		
+}
+
+section{
+	width: 900px;
+	background-image: url('Images/2colback.jpg');
+	background-repeat: repeat-y;
+	overflow: hidden;
+	margin: auto;
+}
+ nav {
+	float: left;
+	width: 250px;
+}
+article {
+	float: left;
+	width: 650px;
+	text-align: center;
+}
+footer {
+	text-align: center;
+	width: 900px; 
+	height: 70px;
+	background-color: #E57373; 
+	margin: auto;
+}
+.logoleft {
+	float: left;
+	padding-top: opx; 
+	padding-left: 15px;
+	
+}
+nav a {
+	border: 6px inset #5279B7; 
+	background-color:#0F2747; 
+	line-height: 250%; 
+	font-weight: bold; 
+	font-size: 25px; 
+	color: #FFEEE6;
+	text-decoration: none;
+	padding-left: 10px;
+	padding-right: 10px; 
+	margin-left: 20px; 
+	font-family: Vivaldi;
+	
+}
+	
+nav a:hover {
+color: #FFD380;
+border: 2px outset #CCCCCC;
+	}
+
+h1{
+	color: #FA9263;
+	text-align: center; 
+	font-size: xx-large
+}
+
+p { color: #FFEEE6; }
+	
+
+
+	#thumbs, #image {
+
+		width: 600;
+
+		text-align: center;
+
+		margin: 0 auto 0 auto;
+
+		color: #000;
+
+	}
+
+
+
+	#thumbs {
+
+		margin-top: 10px;
+
+	}
+
+
+
+			
+
+	#thumbs img {
+
+		border: solid 1px #000;
+
+		margin: 5px;
+
+	}
+
+
+
+	#image{
+
+		height:500px;
+
+	}
+
+
+
+	.instructions{
+
+		font-style:italic;
+
+	}
