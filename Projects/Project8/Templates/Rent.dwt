@@ -1,0 +1,67 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<!-- TemplateBeginEditable name="doctitle" -->
+<title>Home - Rent a pet</title>
+<!-- TemplateEndEditable -->
+<link rel="stylesheet" href="../Mystyles.css" type="text/css">
+	
+<script type="text/javascript" src="../myscripts.js" ></script>
+	
+<link rel="stylesheet" href="../print.css" type="text/css" media="print">
+
+</head>
+
+<body  onload="preloadImages()">
+
+	<header>
+		
+	<a href="../index.html" onMouseOver="document.logo.src=logo2.src;"
+
+	onMouseOut="document.logo.src=logo1.src;">
+
+	<img src="../Images/logo1.jpg" width="150" height="175" 
+
+	name="logo" alt="logo" style="border:none;" class="logoleft" />
+
+	</a>
+		
+	<img src="../Images/RentAPetBanner.png" alt="Pet Banner" width="600" height="175">
+		
+	</header>
+	
+	<section>
+		<nav>
+		<a href="../Home.html">Home Page &nbsp;&nbsp; </a><br>
+		<a href="../aboutus.html">About Us &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </a><br>
+		<a href="../tributes.html">Tributes &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </a><br>
+		<a href="../favorites.html">My Favorites</a><br>
+		<a href="../survey.html">Survey Page &nbsp; </a>
+			
+		</nav>
+		<!-- TemplateBeginEditable name="Right" -->
+        <article>
+          <h1>Welcome to Rent A Pet! </h1>
+          <p> If you love to interact with pets like we do, you should enjoy looking around this site.  Take a look at our Pet Profiles and take the opportunity to complete our survey. </p>
+          <div id="thumbs"> <img src="../Images/thumbnails/Image1Sm.jpg" alt="Boy with pig" onmouseover="swapImage(0);" /> <img src="../Images/thumbnails/Image2Sm.jpg" alt="Girl With Dogs" onmouseover="swapImage(1);" /> <img src="../Images/thumbnails/Image3Sm.jpg" alt="Girl with horse" onmouseover="swapImage(2);" /> <img src="../Images/thumbnails/Image4Sm.jpg" alt="Dog" onmouseover="swapImage(3);" /> </div>
+          <div id="image"> <img id="theImage" src="../Images/FullSize/Image1Lg.jpg" alt="Boy with Pig" />
+            <h3 id="bottomText">Our Beautiful Pets</h3>
+          </div>
+          <h2>What Our Customers Have Been Saying</h2>
+          <img src="../Images/Tributes/BassetHoundSM.jpg" alt="Dog" class="auto-style1" width="193">
+          <p class="tribute">My name is Bessie Anderson and I currently live in a retirement community that has a prohibition on pets. I really wanted to have a small dog that I could take out for walks, <a href="../tributes.html">more...</a></p>
+        </article>
+		<!-- TemplateEndEditable -->
+	
+	</section>
+	
+	<footer>
+	
+		<p>Contact Us By Email: <a href="mailto:10735981@uvu.edu">Byron Guanuna</a></p>
+		<p>This web site has been created soley for educational purposes.</p>
+	
+	</footer>
+	
+</body>
+</html>
